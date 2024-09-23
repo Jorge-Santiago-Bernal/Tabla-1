@@ -1,0 +1,11 @@
+#Este programa dibuja un triangulo invertido de las dimensiones que le digamos
+def triangulos_2():
+  n_filas=int(input("¿De qué tamaño quieres el triangulo? (1-10)"))
+  #Esto es un bucle anidado (nested)
+  for filas in range(n_filas,1,-1):
+    for col in range(filas,1,-1):
+      print('* ',end='') 
+    print("") # \n hace un salto de línea
+
+
+triangulos_2()
