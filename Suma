@@ -1,0 +1,10 @@
+#Este programa suma los n primeros numeros enteros
+#donde n lo propone el usuario
+def suma():
+  numero=int(input("¿Hasta que numero quieres que sume?"))
+  suma=0
+  for cont in range(1, numero+1):
+    suma=suma+cont #Acumulo en suma lo que tenia mas cont
+  print("suma= "+str(suma))
+
+suma()
